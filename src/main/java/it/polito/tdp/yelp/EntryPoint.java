@@ -22,6 +22,7 @@ public class EntryPoint extends Application {
 		controller.setModel(model);
 		Scene scene = new Scene(root);
 		scene.getStylesheets().add(getClass().getResource("/styles/Styles.css").toExternalForm());
+		scene.getRoot().setStyle("-fx-font-family: 'serif'");
 		stage.setScene(scene);
 		stage.show();
     }
